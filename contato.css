@@ -1,86 +1,63 @@
 body {
-    color: white;
-    background-color: black;
-    font-family: Georgia;
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(253, 53, 210, 0.678);
-    color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #b8006b;
+  color: white;
 }
 
 .foto-perfil img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid plum;
-    margin-top: -40px;
-    background-color: rgb(201, 182, 182);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid plum;
+  margin-top: -40px;
+  background-color: white;
 }
 
 main {
-    background-color: #be249093;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    width: 90%;
-    max-width: 500px;
+  background-color: #dadada;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  width: 90%;
+  max-width: 500px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color:white;
-    text-align: center;
+.contato ul {
+  list-style: none;
+  padding: 0;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.contato li {
+  margin: 12px 0;
+  font-size: 1.1em;
+  color: #333;
 }
 
-label {
-    margin-top: 10px;
-    font-weight: bold;
+.contato a {
+  color: #1e90ff;
+  text-decoration: none;
 }
 
-input,
-textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #473e3e;
-    border-radius: 8px;
-    font-size: 1em;
-}
-
-button {
-    margin-top: 20px;
-    padding: 12px;
-    background-color: #bf2082;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background-color: #bf2082;
+.contato a:hover {
+  text-decoration: underline;
 }
 
 footer {
-    margin-top: 30px;
-    color: #999;
-    font-size: 0.9em;
+  margin-top: 30px;
+  color: #999;
+  font-size: 0.9em;
 }
